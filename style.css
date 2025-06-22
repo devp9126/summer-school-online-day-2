@@ -1,0 +1,47 @@
+/* Element selectors */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* ID selector */
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Class selector */
+.profile-card {
+  width: 350px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Group selector */
+h1, h2 {
+  text-align: center;
+}
+
+/* Descendant selector */
+.contact a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Attribute selector */
+a[href] {
+  font-weight: bold;
+}
+
+/* Bonus: Hover effect */
+.contact a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
